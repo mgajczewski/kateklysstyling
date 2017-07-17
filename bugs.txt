@@ -3,3 +3,4 @@
 3. [impresje] - na iphonie 5 (320px) kafelek jest odsuniêty od lewej strony a wystaje z prawej
 4. [menu] - poni¿ej 992px burger jest za nisko
 5. [menu] - jest przerwa miêdzy headerem a menu kontekstowym
+6. [wypoczynek] - ka¿da czcionka jest inna
