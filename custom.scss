@@ -1,0 +1,136 @@
+$font-menu: Georgia serif;
+$phones-max-width: 767px;
+$tablets-max-width: 991px;
+$desktops-max-width: 1199px;
+
+/* Story tiles */
+.tile {
+    float: left;
+    margin: 0 10px;
+    width: 300px;
+    height: 250px;
+	
+	@media only screen and (max-width: $desktops-max-width) {
+		margin: 0 20px 0 0;
+	}
+	
+	&:hover {
+		opacity: 0.7;
+	}
+	
+	.title {
+		display: block;
+		width: 100%;
+		text-align: center;
+		color: rgba(0, 0, 0, 0.6);
+		font-family: Georgia;
+		font-size: 15px;
+		font-weight: 200;
+	}
+}
+
+/* Default page and container size */
+.container {
+    width: 990px;
+	
+	@media only screen {
+		@media (max-width: $desktops-max-width) {
+			width: 770px;
+		}
+		
+		@media (max-width: $tablets-max-width) {
+			width: 550px;
+		}
+
+		@media (max-width: $phones-max-width) {
+			width: 90%;
+		}
+	}
+}
+
+.page.full-width.page-id-239 #primary,
+.page.full-width.page-id-246 #primary,
+.page.full-width.page-id-464 #primary,
+.page.full-width.page-id-406 #primary {
+    width: 75%;
+    float: none;
+    margin: auto;
+	
+	@media only screen {
+		@media (max-width: $desktops-max-width) {
+			width: 100%;
+		}
+	}
+}
+
+.header-top {
+	@media only screen and (max-width: $desktops-max-width) {
+		height: 40px;
+	}
+}
+
+.posted-on {
+	display: none !important;
+}
+
+/* Post header invisible */
+.entry-header {
+    display: none !important;
+}
+
+/* Second burger button invisible */
+#mobile-header a {
+	display: none;
+}
+
+/* Images in posts with center alignment */
+.single-post #primary {
+    margin: auto;
+    float: none !important;
+}
+
+#site-navigation {
+    padding-left: 13px;
+}
+
+#site-navigation a {
+    font-family: $font-menu;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+.site-description {
+    font-family: Georgia serif;
+    font-style: italic;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+h1.site-title a {
+    font-family: "source-sans-pro";
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.post header.site-header {
+    margin-bottom: 12px;
+}
+
+div.entry-content > p > a > img,
+div.entry-content > h4 > a > img {
+    margin-bottom: 10px;
+}
+
+.page.full-width.page-id-406 #primary {
+    text-align: justify;
+}
+
+img.wp-image-482 {
+    -webkit-filter: brightness(1.25);
+    filter: brightness(1.25);
+}
