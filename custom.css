@@ -1,0 +1,138 @@
+/* Story tiles */
+.tile {
+    float: left;
+    margin: 0 10px;
+    width: 300px;
+    height: 250px;
+}
+
+.tile .title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.tile:hover {
+    opacity: 0.7;
+}
+
+/* Page and container size */
+.container {
+    width: 990px;
+}
+
+.page.full-width.page-id-239 #primary,
+.page.full-width.page-id-246 #primary,
+.page.full-width.page-id-464 #primary,
+.page.full-width.page-id-406 #primary {
+    width: 75%;
+    float: none;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1199px) {
+    .container {
+        width: 770px;
+    }
+
+	.page.full-width.page-id-239 #primary,
+    .page.full-width.page-id-246 #primary,
+    .page.full-width.page-id-464 #primary,
+    .page.full-width.page-id-406 #primary {
+        width: 100%;
+    }
+
+    .header-top {
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .container {
+        width: 550px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+
+	.tile {
+        margin: 0 20px 0 0;
+    }
+}
+
+.posted-on {
+	display: none !important;
+}
+
+/* Post header invisible */
+.entry-header {
+    display: none !important;
+}
+
+/* Second burger button invisible */
+#mobile-header a {
+	display: none;
+}
+
+/* Images in posts with center alignment */
+.single-post #primary {
+    margin: auto;
+    float: none !important;
+}
+
+/*.single-post #secondary {
+    display: none !important;
+} */
+
+#site-navigation {
+    padding-left: 13px;
+}
+
+#site-navigation a {
+    font-family: Georgia serif;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+.site-description {
+    font-family: Georgia serif;
+    font-style: italic;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+h1.site-title a {
+    font-family: "source-sans-pro";
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.post header.site-header {
+    margin-bottom: 12px;
+}
+
+div.entry-content > p > a > img,
+div.entry-content > h4 > a > img {
+    margin-bottom: 10px;
+}
+
+.page.full-width.page-id-406 #primary {
+    text-align: justify;
+}
+
+img.wp-image-482 {
+    -webkit-filter: brightness(1.25);
+    filter: brightness(1.25);
+}
