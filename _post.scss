@@ -1,0 +1,22 @@
+.post {
+	header.site-header {
+		margin-bottom: 12px;
+	}
+	
+	/* Space between images */
+	div.entry-content > p > a > img,
+	div.entry-content > h4 > a > img {
+		margin-bottom: 10px;
+	}
+
+	/* Images in posts with center alignment */
+	#primary {
+		margin: auto;
+		float: none !important;
+	}
+	
+	.posted-on {
+		display: none !important;
+	}
+}
+

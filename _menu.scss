@@ -1,0 +1,23 @@
+#site-navigation {
+    padding-left: 13px;
+	
+	a {
+		font-family: Georgia serif;
+		font-style: italic;
+		font-size: 14px;
+		font-weight: 300;
+		text-transform: lowercase;
+	}
+}
+
+/* Appropriate height to display burger */
+.header-top {
+	@media only screen and (max-width: $desktops-max-width) {
+		height: 40px;
+	}
+}
+
+/* Second burger button invisible */
+#mobile-header a {
+	display: none;
+}
