@@ -1,6 +1,8 @@
 1. [impresje] - przy zmniejszaniu za szybko przechodzi w uk³ad 2 kolumn (<1200px), póŸniej to samo z 1 kolumn¹ (<992px), przy 762-767px s¹ na chwile widoczne 2 kolumny
 2. [impresje] - przy 2 i 1 kolumnie kafelki nie s¹ wyrównane do œrodka
 3. [impresje] - na iphonie 5 (320px) kafelek jest odsuniêty od lewej strony a wystaje z prawej
-4. [menu] - poni¿ej 992px burger jest za nisko
-5. [menu] - jest przerwa miêdzy headerem a menu kontekstowym
-6. [wypoczynek] - ka¿da czcionka jest inna
+4. [impresje] - zdjecia Ani sa za duze (jedno ma ponad 8MB!)
+5. [menu] - poni¿ej 992px burger jest za nisko
+6. [menu] - jest przerwa miêdzy headerem a menu kontekstowym
+7. [wypoczynek] - ka¿da czcionka jest inna
+8. [wypoczynek] - zdjecia sa linkami a nie powinny byc
