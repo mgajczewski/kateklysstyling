@@ -10,9 +10,19 @@
 	}
 
 	/* Images in posts with center alignment */
-	#primary {
+	.site-content #primary {
 		margin: auto;
 		float: none !important;
+		
+		@media only screen {
+			@media (max-width: $desktops-max-width) {
+				width: 100%;
+			}
+			
+			@media (max-width: $phones-max-width) {
+				max-width: 969px;
+			}
+		}
 	}
 	
 	.posted-on {

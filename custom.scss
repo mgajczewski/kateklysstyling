@@ -8,16 +8,16 @@ $desktops-max-width: 1199px;
 	
 	@media only screen {
 		@media (max-width: $desktops-max-width) {
-			width: 770px;
+			width: 742px;
 		}
 		
 		@media (max-width: $tablets-max-width) {
-			width: 550px;
+			max-width: 90%;
 		}
 
-		@media (max-width: $phones-max-width) {
-			width: 90%;
-		}
+		/*@media (max-width: $phones-max-width) {
+			width: 100%;
+		}*/
 	}
 }
 
