@@ -3,7 +3,7 @@ FIXED
 [impresje] - przy 2 i 1 kolumnie kafelki nie są wyrównane do środka
 FIXED
 [impresje] - na iphonie 5 (320px) kafelek jest odsunięty od lewej strony a wystaje z prawej
-VERIFY
+FIXED
 [impresje] - zdjecia Ani sa za duze (jedno ma ponad 8MB!)
 FIXED
 [impresje] - stare adresy linków: Aneta -> dotyk szorstiej skały; Asia -> wiosna grecka
@@ -14,5 +14,13 @@ FIXED
 FIXED
 [wypoczynek] - każda czcionka jest inna
 TODO
-[wypoczynek] - zdjecia sa linkami a nie powinny byc
+[wypoczynek] - zdjecia są linkami a nie powinny być
+FIXED
+[asia] - przed 3-m zdjęciem jest spacja
+FIXED
+[emilka] - 2gie zdjęcie jest węższe (671px) niż pozostałe (674px)
+TODO - teraz jest chyba bardziej rozmazane
+[po kolana] - niepotrzebny odstęp nad pierwszym zdjęciem
+TODO
+[galerie] - między niektórymi zdjęciami jest większy odstęp niż w innych miejscach
 TODO
