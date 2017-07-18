@@ -1,14 +1,18 @@
-1. [impresje] - przy zmniejszaniu za szybko przechodzi w układ 2 kolumn (<1200px), później to samo z 1 kolumną (<992px), przy 762-767px są na chwile widoczne 2 kolumny
+[impresje] - przy zmniejszaniu za szybko przechodzi w układ 2 kolumn (<1200px), później to samo z 1 kolumną (<992px), przy 762-767px są na chwile widoczne 2 kolumny
 FIXED
-2. [impresje] - przy 2 i 1 kolumnie kafelki nie są wyrównane do środka
+[impresje] - przy 2 i 1 kolumnie kafelki nie są wyrównane do środka
 FIXED
-3. [impresje] - na iphonie 5 (320px) kafelek jest odsunięty od lewej strony a wystaje z prawej
-4. [impresje] - zdjecia Ani sa za duze (jedno ma ponad 8MB!)
+[impresje] - na iphonie 5 (320px) kafelek jest odsunięty od lewej strony a wystaje z prawej
+VERIFY
+[impresje] - zdjecia Ani sa za duze (jedno ma ponad 8MB!)
 FIXED
-5. [impresje] - stare adresy linków: Aneta -> dotyk szorstiej skały; Asia -> wiosna grecka
-6. [menu] - poniżej 992px burger jest za nisko
+[impresje] - stare adresy linków: Aneta -> dotyk szorstiej skały; Asia -> wiosna grecka
+TODO
+[menu] - poniżej 992px burger jest za nisko
 FIXED
-7. [menu] - jest przerwa między headerem a menu kontekstowym
+[menu] - jest przerwa między headerem a menu kontekstowym
 FIXED
-8. [wypoczynek] - każda czcionka jest inna
-9. [wypoczynek] - zdjecia sa linkami a nie powinny byc
+[wypoczynek] - każda czcionka jest inna
+TODO
+[wypoczynek] - zdjecia sa linkami a nie powinny byc
+TODO
