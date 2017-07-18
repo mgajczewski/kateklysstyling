@@ -7,6 +7,8 @@ FIXED
 FIXED
 5. [impresje] - stare adresy linków: Aneta -> dotyk szorstiej skały; Asia -> wiosna grecka
 6. [menu] - poniżej 992px burger jest za nisko
+FIXED
 7. [menu] - jest przerwa między headerem a menu kontekstowym
+FIXED
 8. [wypoczynek] - każda czcionka jest inna
 9. [wypoczynek] - zdjecia sa linkami a nie powinny byc

@@ -11,9 +11,9 @@
   }
 }
 
-/* Appropriate height to display burger */
+/* Appropriate height of top bar */
 .header-top {
-  @media only screen and (max-width: $desktops-max-width) {
+  @media only screen and (max-width: $tablets-max-width) {
     height: 40px;
   }
 }
@@ -21,4 +21,22 @@
 /* Second burger button invisible */
 #mobile-header a {
   display: none;
+}
+
+@media only screen and (max-width: $tablets-max-width) {
+  .mean-container {
+    /* Context menu position */
+    .mean-bar {
+      top: 0;
+
+      .mean-nav {
+        margin-top: 40px;
+      }
+    }
+
+    /* Burger position on the middle of top bar */
+    a.meanmenu-reveal {
+      margin-top: -3px;
+    }
+  }
 }
