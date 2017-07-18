@@ -1,32 +1,29 @@
 .post {
-	header.site-header {
-		margin-bottom: 12px;
-	}
-	
-	/* Space between images */
-	div.entry-content > p > a > img,
-	div.entry-content > h4 > a > img {
-		margin-bottom: 10px;
-	}
+  /* Smaller distance between menu and post images */
+  header.site-header {
+    margin-bottom: 12px;
+  }
 
-	/* Images in posts with center alignment */
-	.site-content #primary {
-		margin: auto;
-		float: none !important;
-		
-		@media only screen {
-			@media (max-width: $desktops-max-width) {
-				width: 100%;
-			}
-			
-			@media (max-width: $phones-max-width) {
-				max-width: 969px;
-			}
-		}
-	}
-	
-	.posted-on {
-		display: none !important;
-	}
+  /* Space between images */
+  div.entry-content > p > a > img,
+  div.entry-content > h4 > a > img {
+    margin-bottom: 10px;
+  }
+
+  /* Images in posts with center alignment */
+  .site-content #primary {
+    margin: auto;
+    float: none !important;
+
+    @media only screen {
+      @media (max-width: $desktops-max-width) {
+        width: 100%;
+      }
+    }
+  }
+
+  /* Post date invisible */
+  .posted-on {
+    display: none !important;
+  }
 }
-

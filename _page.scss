@@ -1,11 +1,12 @@
 .page.full-width #primary {
-    float: none;
-    margin: auto;
-	width: 75%;
-	
-	@media only screen {
-		@media (max-width: $desktops-max-width) {
-			width: 100%;
-		}
-	}
+  /* Center align on pages */
+  float: none;
+  margin: auto;
+  width: 75%;
+
+  @media only screen {
+    @media (max-width: $desktops-max-width) {
+      width: 100%;
+    }
+  }
 }

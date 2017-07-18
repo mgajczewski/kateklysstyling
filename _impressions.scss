@@ -1,51 +1,56 @@
-/* Story tiles */
-.tile {
+.page.full-width.page-id-171 {
+  /* Story tiles */
+  .tile {
     float: left;
     margin: 0 10px;
     width: 300px;
     height: 250px;
-	
-	@media only screen and (max-width: $phones-max-width) {
-		margin: 0;
-	}
-	
-	&:hover {
-		opacity: 0.7;
-	}
-	
-	.title {
-		display: block;
-		width: 100%;
-		text-align: center;
-		color: rgba(0, 0, 0, 0.6);
-		font-family: Georgia;
-		font-size: 15px;
-		font-weight: 200;
-	}
-}
 
-/* Specific width */
-.page.full-width.page-id-171 {
-	.container {
-		@media (max-width: $phones-max-width) {
-			padding: 0;
-		}
-	
-		#primary {
-			width: 100%;
-				
-			@media only screen {
-				@media (max-width: $desktops-max-width) {
-					width: 640px;
-					margin: 0 auto;
-					padding: 0;
-				}
-				
-				@media (max-width: $phones-max-width) {
-					max-width: 300px;
-					width: 100%;
-				}
-			}
-		}
-	}
+    /* Clear margin when there's just one column */
+    @media only screen and (max-width: $phones-max-width) {
+      margin: 0;
+    }
+
+    /* Enlight the tile on hover */
+    &:hover {
+      opacity: 0.7;
+    }
+
+    /* Titles below tiles images */
+    .title {
+      display: block;
+      width: 100%;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.6);
+      font-family: Georgia;
+      font-size: 15px;
+      font-weight: 200;
+    }
+  }
+
+  /* Specific width behavior */
+  .container {
+    @media (max-width: $phones-max-width) {
+      padding: 0;
+    }
+
+    #primary {
+      width: 100%;
+
+      @media only screen {
+        /* Two columns */
+        @media (max-width: $desktops-max-width) {
+          width: 640px;
+          margin: 0 auto;
+          padding: 0;
+        }
+
+        /* One column */
+        @media (max-width: $phones-max-width) {
+          max-width: 300px;
+          width: 100%;
+        }
+      }
+    }
+  }
 }

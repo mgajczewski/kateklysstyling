@@ -4,20 +4,16 @@ $desktops-max-width: 1199px;
 
 /* Default page and container size */
 .container {
-    width: 990px;
-	
+  width: 990px;
+
 	@media only screen {
 		@media (max-width: $desktops-max-width) {
 			width: 742px;
 		}
-		
+
 		@media (max-width: $tablets-max-width) {
 			max-width: 90%;
 		}
-
-		/*@media (max-width: $phones-max-width) {
-			width: 100%;
-		}*/
 	}
 }
 
