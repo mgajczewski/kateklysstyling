@@ -1,0 +1,52 @@
+.page.full-width.page-id-406 #primary,
+.page.full-width.page-id-246 #primary {
+  /* Smaller space between fields */
+  .nf-field-container {
+    margin-bottom: 10px;
+  }
+
+  /* Adjustments for kobieta checkbox */
+  .kobieta {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .nf-field-label {
+      text-align: left;
+      width: auto;
+    }
+
+    .nf-field-element {
+      width: 20px;
+    }
+
+    .nf-after-field {
+      margin-left: 0;
+    }
+  }
+
+  /* Textbox for telephone the same as other */
+  input[type="tel"] {
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 3px;
+  }
+
+  .nf-error input[type="tel"] {
+    border: 1px solid #E80000;
+  }
+
+  /* Bigger font size of submit button */
+  .submit-container input[type="button"] {
+    font-size: 18px;
+    padding-top: 7px;
+  }
+
+  /* Smaller error and information texts */
+  .nf-form-fields-required,
+  .nf-after-field .nf-error,
+  .nf-form-errors {
+    font-size: 14px;
+    font-style: italic;
+  }
+}

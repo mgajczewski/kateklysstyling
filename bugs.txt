@@ -13,7 +13,7 @@ FIXED
 [menu] - jest przerwa między headerem a menu kontekstowym
 FIXED
 [wypoczynek] - każda czcionka jest inna
-TODO
+FIXED
 [wypoczynek] - zdjecia są linkami a nie powinny być
 FIXED
 [asia] - przed 3-m zdjęciem jest spacja
@@ -23,4 +23,10 @@ TODO - teraz jest chyba bardziej rozmazane
 [po kolana] - niepotrzebny odstęp nad pierwszym zdjęciem
 TODO
 [galerie] - między niektórymi zdjęciami jest większy odstęp niż w innych miejscach
+TODO
+[forms] - tekst w aktywnym polu telefon pozostaje szary, w innych aktywnych polach jest czarny
+TODO
+[kontakt] - przy zmniejszaniu zostaje początek testu po prawej, reszta przenosi się niżej
+TODO
+[kontakt] - brak autora pod zdjęciem
 TODO
