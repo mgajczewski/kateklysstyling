@@ -1,4 +1,6 @@
+/* page wypoczynek */
 .page.full-width.page-id-406 #primary,
+/* page kontakt */
 .page.full-width.page-id-246 #primary {
   /* Smaller space between fields */
   .nf-field-container {
@@ -30,6 +32,10 @@
     border: 1px solid #ccc;
     border-radius: 3px;
     padding: 3px;
+
+    &:focus {
+      color: black;
+    }
   }
 
   .nf-error input[type="tel"] {
