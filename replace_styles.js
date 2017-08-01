@@ -5,7 +5,7 @@ var pathFromPageToCustomCss = './../Repo/custom.css';
 
 
 var htmlPageRegex = /.*\.html/;
-var inlineCustomStyleRegex = /<style type="text\/css" id="wp-custom-css">[\s\S]*<\/style>/g;
+var inlineCustomStyleRegex = /<style type="text\/css" id="wp-custom-css">[\s\S]*?<\/style>/g;
 var linkToCustomStylesheet = '<link rel="stylesheet" id="wp-custom-css" href="' + pathFromPageToCustomCss + '" type="text/css" media="all">';
 
 function getHtmlFileNames() {
