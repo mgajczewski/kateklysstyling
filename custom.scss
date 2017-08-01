@@ -17,9 +17,38 @@ $desktops-max-width: 1199px;
 	}
 }
 
-/* Page and Post header invisible */
-.entry-header {
-    display: none !important;
+.entry-title {
+  font-family: Helvetica, Sans-Serif;
+  font-size: 0px; /* TODO: Check if necessary - it supposed to fix Blog title */
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* TODO: Check if necessary */
+.a {
+  font-family: Helvetica, Sans-Serif;
+  font-size: 8px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* TODO: Check if necessary */
+.site-content .post .entry-title a,
+.site-content .page .entry-title,
+.page .site-content #primary .entry-title,
+.post .site-content .entry-title {
+  font-size: 29px;
+  line-height: 44px;
+  color: black;
+  font-weight: normal;
+  font-family: Helvetica, Sans-Serif;
+}
+
+/* TODO: Check if necessary */
+.entry-meta {
+  display: none !important;
 }
 
 @import 'site_header';

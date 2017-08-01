@@ -28,6 +28,8 @@
     /* Context menu position */
     .mean-bar {
       top: 0;
+      /* Behind social media floating buttons */
+      z-index: 9999;
 
       .mean-nav {
         margin-top: 40px;
@@ -38,5 +40,11 @@
     a.meanmenu-reveal {
       margin-top: -3px;
     }
+  }
+
+  /* Social media floating buttons cannot cover burger */
+  #sfsi_plus_floater {
+    width: 185px !important;
+    right: 50px !important;
   }
 }

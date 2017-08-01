@@ -4,6 +4,11 @@
     margin-bottom: 12px;
   }
 
+  /* Hide thumbnail */
+  &.single-post .post-thumbnail img {
+    display:none;
+  }
+
   /* Space between images */
   div.entry-content > p > img,
   div.entry-content > h4 > img {
@@ -25,5 +30,11 @@
   /* Post date invisible */
   .posted-on {
     display: none !important;
+  }
+
+  /* Hide dots next to facebook and pinterest buttons */
+  #dpsp-content-bottom ul li {
+    background: transparent;
+    padding-left: 0
   }
 }

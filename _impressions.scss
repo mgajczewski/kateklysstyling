@@ -1,4 +1,9 @@
 .page.full-width.page-id-171 {
+  /* Header invisible */
+  .entry-header {
+      display: none !important;
+  }
+
   /* Story tiles */
   .tile {
     float: left;
