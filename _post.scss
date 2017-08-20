@@ -15,16 +15,11 @@
     margin-bottom: 10px;
   }
 
-  /* Images in posts with center alignment */
+  /* Center alignment of posts content and max width */
   .site-content #primary {
     margin: auto;
     float: none !important;
-
-    @media only screen {
-      @media (max-width: $desktops-max-width) {
-        width: 100%;
-      }
-    }
+    width: 100%;
   }
 
   /* Post date and tags invisible */
