@@ -1,0 +1,12 @@
+.blog {
+  /* Fix missing site header styling for blog */
+  .site-header {
+    border-bottom: 1px solid #f3f3f1;
+    margin-bottom: 62px;
+  }
+
+  /* Hide "Blog" title */
+  .site-main > .entry-header .entry-title {
+    display: none;
+  }
+}
